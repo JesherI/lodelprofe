@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block tittle %}3B DSM{% endblock %}
+
+{% block content %}
+<h1>DSM 3B are Great!</h1>
+<ul>Alumnos de grupo
+    {% for alumno in alumnos%}
+    <li>{{ alumno }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}
