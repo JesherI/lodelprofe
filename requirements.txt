@@ -1,1 +1,4 @@
 flask
+mysql-connnector-python
+flask-wtf
+email-validator
